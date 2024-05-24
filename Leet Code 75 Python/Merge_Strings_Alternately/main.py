@@ -5,19 +5,6 @@ class Solution(object):
         :type word2: str
         :rtype: str
         """
-        # 1. Initialize an empty list 'merged'
-        # 2. Initialize pointer i and j to 0
-        # 3. While i < len(word1) and j < len(word2):
-        #     a. Add word1[i] to merged
-        #     b. Increment i
-        #     c. Add word2[j] to merged
-        #     d. Increment j
-        # 4. If there are remaining characters in word1 (i < len(word1)):
-        #     a. Append the remaining characters to merged
-        # 5. If there are remaining characters in word2 (j < len(word2)):
-        #     a. Append the remaining characters to merged
-        # 6. Join the merged list into a string
-        # 7. Return the joined string
 
         # Step 1: Initialize an empty list 'merged'
         merged = []
