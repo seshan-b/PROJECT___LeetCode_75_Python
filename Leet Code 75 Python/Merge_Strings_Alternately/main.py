@@ -19,9 +19,6 @@ class Solution(object):
         # 6. Join the merged list into a string
         # 7. Return the joined string
 
-
-
-
         # Step 1: Initialize an empty list 'merged'
         merged = []
 
